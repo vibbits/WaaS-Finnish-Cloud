@@ -35,12 +35,6 @@ do we need to execute the standard update steps of Ubuntu?
 $ sudo apt-get update
 $ sudo apt-get upgrade
 
-Check also:
-To do this:
-
-Open up the ‘Software & Updates’ tool from the Unity Dash
-Click the ‘Additional Drivers’ tab
-Follow any on-screen prompts to check for, install and apply any changes 
 
 then:
 #!/bin/bash
@@ -61,3 +55,9 @@ glib-compile-schemas /usr/share/glib-2.0/schemas/
 cd /home
 chmod 750 *
 
+
+Check also:
+
+Open up the ‘Software & Updates’ tool from the Unity Dash
+Click the ‘Additional Drivers’ tab
+Follow any on-screen prompts to check for, install and apply any changes 
