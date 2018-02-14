@@ -37,6 +37,7 @@ $ sudo apt-get upgrade
 
 
 then:
+´´´
 #!/bin/bash
 apt-get install -y mc xinetd tigervnc-standalone-server lightdm unity-greeter ubuntu-desktop
 for i in `seq 1 1`;
@@ -54,7 +55,7 @@ glib-compile-schemas /usr/share/glib-2.0/schemas/
 /etc/init.d/lightdm restart
 cd /home
 chmod 750 *
-
+´´´
 
 Check also:
 
