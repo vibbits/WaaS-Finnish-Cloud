@@ -32,12 +32,13 @@ or our setup on the Google Cloud on Ubuntu
 
 
 do we need to execute the standard update steps of Ubuntu?
+```
 $ sudo apt-get update
 $ sudo apt-get upgrade
+```
 
 
-then:
-`
+```bash
 #!/bin/bash
 apt-get install -y mc xinetd tigervnc-standalone-server lightdm unity-greeter ubuntu-desktop
 for i in `seq 1 1`;
@@ -55,7 +56,7 @@ glib-compile-schemas /usr/share/glib-2.0/schemas/
 /etc/init.d/lightdm restart
 cd /home
 chmod 750 *
-`
+``` 
 
 Check also:
 
